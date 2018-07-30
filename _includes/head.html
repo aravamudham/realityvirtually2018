@@ -51,4 +51,123 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+
+    <!-- Trigger/Open The Modal -->
+    <!--<button id="myBtn">Open Modal</button>-->
+
+    <!-- The Modal -->
+    <!--Todo:Move modal to respective place-->
+    <div id="registrationModal" class="modal" style="z-index:99999; display:none;">
+
+        <!-- Modal content -->
+        <div class="modal-content container-fluid">
+            <span class="close" style="color:black">&times;</span>
+            <!--<p>Some text in the Modal..</p>-->
+
+
+            <h2>Registration - US</h2>
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="form-control" id="firstname">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="form-control" id="lastname">
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" class="form-control" id="city">
+            </div>
+            <div class="form-group">
+                <label for="state">State / Province:</label>
+                <input type="text" class="form-control" id="state">
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" class="form-control" id="country">
+            </div>
+            <div class="form-group">
+                <label for="student">Student Affiliation:</label>
+                <input type="text" class="form-control" id="student">
+            </div>
+            <div class="form-group">
+                <label for="minority">Self identified minority group you represent:</label>
+                <input type="text" class="form-control" id="minority">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Prefer not to specify</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Age range:</label>
+                <select class="form-control" id="age">
+                    <option>0-24</option>
+                    <option>25-64</option>
+                    <option>65-74</option>
+                    <option>75+</option>
+                </select>
+            </div>
+
+            <!--b.1 First name, last name-->
+            <!--b.2. city, state/province, and country-->
+            <!--b.3 Student? University affiliation-->
+            <!--b.4 Gender M, F, NB, do not care to answer-->
+            <!--b.5 Age range - here is the standard that I found from wikimedia for age brackets-->
+            <!--https://meta.wikimedia.org/wiki/Survey_best_practices-->
+            <!--b.6 Self identified minority group you represent?-->
+            <!--b.7 Integrate with mailchimp to send confirmation that their request for notification of the opening of the opening of applications was received.-->
+            <!--b.8 on the data capture form, we should notify potential participants that they may require a Visa. If their country is not on the Visa Waiver Program (the "VWP") list https://www.dhs.gov/visa-waiver-program-requirements the accepted applicant will require a US Visa.-->
+            <!--b.9  here is the directory to store the non-GDPR data-->
+
+            <button class="btn btn-success center-block">Submit</button>
+        </div>
+    </div>
+
+
+    <!--//TODO:Move-->
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
   </head>

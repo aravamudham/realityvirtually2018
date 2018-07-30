@@ -45,6 +45,10 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/hackathon/", text: "Hackathon"}
+ - {link: "http://www.realityvirtuallyhack.com/", text: "RV2017"}
+ - {link: "http://www.realityvirtuallyhack.com/about-2016/", text: "RV2016"}
+ - {calltoaction: true, permalink: "/#", text: "Register Now", onclick: "register()", style: "color:#5dccb7;" , id: "registrationButton"}
+
 
 
 # Hero Block

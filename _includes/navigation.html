@@ -10,9 +10,17 @@
         <div class="logo-navbar logo logo-dark visible-xs"></div>
         <ul>
             {% for navigationLink in site.navigationLinks %}
-            <li>
-                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
-            </li>
+                {% if navigationLink.calltoaction == null %}
+                <li>
+                    <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
+                </li>
+                {% endif %}
+                {% if navigationLink.permalink != null and navigationLink.calltoaction != null %}
+                <li>
+                    <a class="calltoaction" id="{{navigationLink.id}}" style="{{ navigationLink.style }}">{{navigationLink.text}}</a>
+                    <!--<a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_self"{% endif %}>{{ navigationLink.text}}</a>-->
+                </li>
+                {% endif %}
             {% endfor %}
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
