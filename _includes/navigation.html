@@ -19,6 +19,28 @@
     }
 
 
+    #top-section-hero::after{
+        content:"";
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        height:100vh;
+        width:100vw;
+        background-color: rgba(0,0,0,0.7);
+        /*box-shadow: 0 -5px 5px -5px #333;*/
+    }
+
+
+    @media screen and (max-width:768px)
+    {
+        #top-section-hero{
+            background-position-x:33%!important;
+        }
+    }
+
+
     /*.st-menu ul a {*/
     /*position: relative;*/
     /*overflow:hidden;*/
