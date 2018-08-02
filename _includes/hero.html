@@ -3,8 +3,10 @@
     {% include navigation.html %}
     <div class="content-wrapper">
     <div class="jumbotron">
+
+
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-            {% assign heroText = site.heroTitle | split:"<typeout>" %}
+            {% assign heroText = site.heroTitle | split:"<typeout></typeout>" %}
             <h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
             <p>{{ site.eventDate }}</p>
             {% for button in site.heroButtons %}
@@ -21,8 +23,8 @@
 
 
             <!--</span>-->
+            <button class="button btn-lg" type="text" style="color:black;" id="registrationButtonLG">Sign up for updates</button>
             <br>
-            <button class="button btn-lg" type="text" style="color:black;" id="registrationButton">Sign up for updates</button>
         </div>
     </div>
 
