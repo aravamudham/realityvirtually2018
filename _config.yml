@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Reality Virtually Hackathon"
 email: "team@realityvirtuallyhack.com"
 description: "Calling everyone to create, learn and explore new and yet to be known VR and AR applications at the MIT Media Lab, Cambridge, Massachusetts, USA"
-baseurl: "/zeppelin"
+baseurl: ""
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
@@ -42,7 +42,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
+ - {permalink: "#", text: "Home"}
 # - {permalink: "/blog/", text: "Blog"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
  - {link: "http://www.realityvirtuallyhack.com/", text: "Past Events" , 2016event: "#2016" , 2017eventL: "#2017"}
@@ -60,7 +60,7 @@ typeoutFallback: "Season"
 
 
 # About Block
-aboutTitle: "About Reality Virtually Event"
+aboutTitle: "About Reality Virtually"
 aboutBlock:
  - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
  - {title: "Conference", image: "mitmedialab_outer.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more. See last year’s winners." }
