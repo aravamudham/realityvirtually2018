@@ -52,7 +52,7 @@ navigationLinks:
 
 
 # Hero Block
-heroImage: "hero_old.jpg"
+heroImage: "the_future.jpg"
 heroTitle: "Reality Virtually Hackathon "
 eventDate: "January 17-21, 2019"
 typeoutTextValues: '"MIT Media Lab"'
@@ -184,7 +184,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:team@realityvirtuallyhack.com", text: "team@realityvirtuallyhack.com"}
  -
   title: "FAQ"
   links:
