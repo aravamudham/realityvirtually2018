@@ -62,9 +62,9 @@ typeoutFallback: "Season"
 # About Block
 aboutTitle: "About Reality Virtually Event"
 aboutBlock:
- - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "3 Full-days freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
- - {title: "Conference", image: "mitmedialab_outer.png", text: "The biggest VR/AR hackathon in the works by a factor of 2X including workshops — crash courses to get people ready, passionate mentors to help teams deliver projects, vetted and qualified judges to pick the best, a ton of technology like Gear VR, Google Daydream, Tango, Hololens and Vive and a team of passionate organizers that are all heads down delivering a great hackathon experience with the help of some great sponsors." }
- - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "Hackathon", image: "mitmedialab_hackathon.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more." }
+ - {title: "Conference", image: "mitmedialab_outer.png", text: "The biggest immersive hackathon in the world is in the works. During a full five days, you will meet new people, form interdisciplinary teams, brainstorm and build AR/VR experiences and applications that redefine immersive technologies. We will have passionate and skilled mentors to help teams ideate, build and deliver their projects. Vetted and qualified judges will pick the best among a variety of categories. Sponsors will provide an abundance of technology platforms to work with: ARCore, ARKit, Vive, Gear VR , Hololens, and more. See last year’s winners." }
+ - {title: "Workshops", image: "mitmedialab_workshops.jpg", text: "The hackathon will lead with a full day of workshops to get people ready to contribute to their team’s project. Come and tame your favorite technology. You can check out last year’s workshop schedule here." }
 
 
 
